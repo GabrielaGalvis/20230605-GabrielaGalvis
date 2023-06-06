@@ -1,0 +1,29 @@
+ 430  git init
+  431  git remote add origin https://github.com/GabrielaGalvis/20230605-GabrielaGalvis.git
+  432  touch comandos.txt main.js index.html
+  433  git status
+  434  git add .
+  435  git commit -m"commit 01 de GabrielaGalvis"
+  436  git branch -M main
+  437  git push -u origin main
+  438  git branch feature
+  439  git checkout feature
+  440  mkdir Hardware Software SeguridadInformatica
+  441  cd Hardware/
+  442  touch resumen.txt
+  443  ..cd
+  444  cd ..
+  445  cd Software/
+  446  touch resumen.txt
+  447  cd ..
+  448  cd SeguridadInformatica/
+  449  touch resumen.txt
+  450  cd ..
+  451  git add .
+  452  git commit -m"commit 02 de GabrielaGalvis"
+  453  git push -u origin feature
+  454  git checkout main
+  455  mv main.js resumenHardware.txt
+  456  mv index.html resumenSoftware.txt
+  457  history
+  458  history 30
